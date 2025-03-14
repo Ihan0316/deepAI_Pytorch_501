@@ -46,5 +46,23 @@ print("z:", z)
 
 conda create -n Pytorch python=3.10
 
+가상환경 목록 조회. 
+conda env list  
 
+실행 명령어 
+conda activate Pytorch
+
+예시 화면
+(base) C:\Users\it>conda env list
+
+# conda environments:
+#
+base                 * C:\Users\it\anaconda3
+Pytorch                C:\Users\it\anaconda3\envs\Pytorch
+가상환경이름                 C:\Users\it\anaconda3\envs\가상환경이름
+
+
+(base) C:\Users\it>conda activate Pytorch
+
+(Pytorch) C:\Users\it>
 
