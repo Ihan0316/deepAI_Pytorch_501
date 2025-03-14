@@ -66,3 +66,38 @@ Pytorch                C:\Users\it\anaconda3\envs\Pytorch
 
 (Pytorch) C:\Users\it>
 
+2-2
+파이참 프로페셜널 
+
+새 프로젝트 -> 순수 파이선 선택 -> 가상화 콘다 기본 설정 탭 선택 
+-> 터미널에서 -> 새 터미널 추가(Command Prompt) 
+->  확인. 
+(base) D:\0-django-workspace\PythonProject>conda activate Pytorch
+
+(Pytorch) D:\0-django-workspace\PythonProject>
+
+
+2-3 
+검색어 : 파이토치 설치, 
+파이토치 공식 문서에 가서, 콘다 버전으로, cpu 선택 해서, 설치 작업. 
+
+pip3 install torch torchvision torchaudio
+
+2-4.
+새 쥬피터 노트북 파일 생성해서. 
+import torch
+print(torch.__version__)  # 설치된 PyTorch 버전 출력
+print(torch.cuda.is_available())  # CUDA 사용 가능 여부 확인
+
+if torch.cuda.is_available():
+    print(f"GPU 사용 가능: {torch.cuda.get_device_name(0)}")
+else:
+    print("GPU를 사용할 수 없습니다. CPU를 사용합니다.")
+
+x = torch.rand(3, 3)
+y = torch.rand(3, 3)
+z = x + y
+print("x:", x)
+print("y:", y)
+print("z:", z)
+
