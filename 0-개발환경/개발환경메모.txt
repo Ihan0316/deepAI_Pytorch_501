@@ -70,6 +70,7 @@ Pytorch                C:\Users\it\anaconda3\envs\Pytorch
 파이참 프로페셜널 
 
 새 프로젝트 -> 순수 파이선 선택 -> 가상화 콘다 기본 설정 탭 선택 
+(미니 콘다 설치)
 -> 터미널에서 -> 새 터미널 추가(Command Prompt) 
 ->  확인. 
 (base) D:\0-django-workspace\PythonProject>conda activate Pytorch
