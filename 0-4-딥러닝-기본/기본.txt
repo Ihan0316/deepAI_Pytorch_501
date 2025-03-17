@@ -610,7 +610,7 @@ from google.colab import drive
 drive.mount('/content/gdrive')
 
 
-cd/content/gdrive/My Drive/pytorch_dlbro
+cd/content/gdrive/My Drive/busanit501-1234
 
 # 데이터가 같은 클래스 별로 미리 폴더를 정리 된 경우,
 # ImageFolder의 1줄 선언으로 개인 데이터를 사용할 수 있다.
